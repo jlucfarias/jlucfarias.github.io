@@ -1,0 +1,17 @@
+name: Deploy to Github Pages
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: deploy
+        uses: shalzz/zola-deploy-action@master
+        env:
+          PAGES_BRANCH: gh-pages
+          TOKEN: ${{ secrets.TOKEN }}

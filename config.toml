@@ -1,0 +1,17 @@
+base_url = "https://jlucfarias.github.io"
+title = "Luc Blog"
+description = "A simple note-taking and thought-dumping blog"
+default_language = "pt-BR"
+compile_sass = false
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
+author = "João Lucas Farias"
+
+[markdown]
+highlight_code = true
+highlight_theme = "dracula"
+bottom_footnotes = true
+
+[extra]
+# Put all your custom variables here
