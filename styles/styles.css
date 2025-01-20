@@ -5,3 +5,11 @@
 * {
   font-family: "Quicksand", sans-serif;
 }
+
+.spaced {
+  padding-inline-start: 30vw;
+}
+
+footer .spaced {
+  padding-inline-start: 35vw;
+}

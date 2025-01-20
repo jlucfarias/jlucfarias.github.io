@@ -554,11 +554,6 @@ video {
   display: none;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -619,10 +614,6 @@ video {
   padding-inline-start: 0.75rem;
 }
 
-.ps-5 {
-  padding-inline-start: 1.25rem;
-}
-
 .pt-4 {
   padding-top: 1rem;
 }
@@ -654,6 +645,14 @@ video {
 
 * {
   font-family: "Quicksand", sans-serif;
+}
+
+.spaced {
+  padding-inline-start: 30vw;
+}
+
+footer .spaced {
+  padding-inline-start: 35vw;
 }
 
 .hover\:text-white:hover {
