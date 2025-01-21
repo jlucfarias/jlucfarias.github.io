@@ -6,8 +6,12 @@
   font-family: "Quicksand", sans-serif;
 }
 
+header .spaced {
+  padding-inline-start: calc(25vw - 34px - 0.75rem);
+}
+
 .spaced {
-  padding-inline-start: 30vw;
+  padding-inline-start: 25vw;
 }
 
 footer .spaced {
