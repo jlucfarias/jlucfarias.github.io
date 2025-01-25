@@ -28,6 +28,31 @@
     <main class="flex-auto text-gray ps-80 max-w-5xl">
       <article class="h-full flex flex-col pt-12 pb-4">
         {{ section.content | safe }}
+
+        {% for year, posts in section.pages | sort(attribute="date") | reverse | group_by(attribute="year") -%}
+          {% if loop.first -%}
+            <h2 class="text-white text-3xl mt-7">Artigos</h2>
+          {% endif %}
+
+          <h3 class="text-white text-lg font-bold mt-2 mb-2">{{ year | safe }}</h3>
+
+          <section class="flex gap-x-8">
+            {% for post in posts -%}
+              <div class="p-4 bg-black hover:bg-gray-dark transition-colors duration-500 {% if post.extra.draft -%} cursor-not-allowed draft-card {% endif %}">
+                <a class="{% if post.extra.draft -%} opacity-45 pointer-events-none {% endif %}" href="{{ get_url(path='@/projects/_index.md') | safe }}">
+                  <h4 class="text-white text-2xl">{{ post.title }}</h4>
+                  <p>{{ post.description | safe }}</p>
+                  <span class="text-xs">{{ post.date | date(format="%d-%m-%Y") | safe }}</span>
+                  <div class="mb-2"></div>
+
+                  {% for label in post.taxonomies.labels -%}
+                    <span class="block w-fit text-xs px-4 py-1 rounded-full post-label-{{ label | safe }}">{{ label | safe }}</span>
+                  {% endfor %}
+                </a>
+              </div>
+            {% endfor %}
+          </section>
+        {% endfor %}
       </article>
     </main>
   </body>
