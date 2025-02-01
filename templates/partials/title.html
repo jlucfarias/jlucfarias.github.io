@@ -1,0 +1,16 @@
+{#- Setup -#}
+{%- set prefix = config.title | safe -%}
+{%- set separator = " • " -%}
+
+{%- if current_path and current_path == "/" -%}
+  {%- set suffix = "" -%}
+  {%- set separator = "" -%}
+{% elif section.title -%}
+  {%- set suffix = section.title -%}
+{% elif page.title %}
+  {%- set suffix = page.title -%}
+{% else %}
+  {%- set suffix = "404" %}
+{%- endif -%}
+
+{{- prefix ~ separator ~ suffix -}}

@@ -1,6 +1,8 @@
 ---
 title: "Meus projetos"
 template: projects.html
+extra:
+  social_image: projects/projects.png
 ---
 
 <style>

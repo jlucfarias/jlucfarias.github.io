@@ -3,6 +3,8 @@ title: "Hello, World!"
 description: "Por que eu resolvi criar esse blog? Sobre o que falarei por aqui?"
 date: 2025-01-26
 template: blog/post.html
+extra:
+  social_image: blog/hello-world.png
 ---
 
 Desde 2014, quando iniciei meus estudos na área de programação, sempre tive um gosto por perceber como é uma área que há um compartilhamento interessante de conhecimento. Muito do que eu sei hoje vieram das muitas horas de leituras de postagens em blogs e daí vem a minha vontade de criar o meu próprio blog, porém eu nunca tinha entendido os assuntos que trataria e como começar um, mas esse ano (2025) me reocorreu essa ideia há muito alimentada, mas nunca posta em prática.

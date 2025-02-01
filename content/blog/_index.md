@@ -1,6 +1,8 @@
 ---
 title: "Blog"
 template: blog/index.html
+extra:
+  social_image: blog/archive.png
 ---
 
 # Meu blog { .text-white .text-5xl .mb-5 }
