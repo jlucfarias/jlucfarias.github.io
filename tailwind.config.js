@@ -6,12 +6,14 @@ module.exports = {
     './theme/**/*.html',
   ],
   theme: {
-    colors: {
-      'black': '#212121',
-      'white': '#fafafa',
-      'gray': '#c1c1c1',
-      'gray-dark': '#3d3d3d',
-    },
+    extend: {
+      colors: {
+        'black': '#212121',
+        'white': '#fafafa',
+        'gray-500': '#c1c1c1',
+        'gray-800': '#3d3d3d',
+      },
+    }
   },
   plugins: [
     require('@tailwindcss/typography'),

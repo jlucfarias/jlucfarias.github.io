@@ -11,13 +11,12 @@
   position: absolute;
   top: 0;
   right: -8px;
-  background-color: red;
   font-size: 12px;
   font-weight: bold;
   padding-inline: 10px;
   z-index: 1;
 
-  @apply text-white
+  @apply text-white bg-red-500
 }
 
 .draft-card::after {
@@ -31,4 +30,22 @@
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-bottom: 7px solid red;
+}
+
+strong, a {
+  @apply text-white
+}
+
+em {
+  @apply text-gray-200
+}
+
+a {
+  @apply underline underline-offset-4 duration-100
+}
+
+@media screen and (hover: hover) {
+  a:hover {
+    @apply text-gray-300
+  }
 }
