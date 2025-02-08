@@ -1,21 +1,36 @@
 <!DOCTYPE html>
-<html lang="{{ lang }}" class="w-full h-full">
+<html lang="{{ lang }}" class="h-full">
   {%- include "partials/head.html" -%}
-  <header class="flex items-center justify-between pt-4">
-    <a class="ps-5" href="{{ get_url(path='/') }}">
+  <header class="flex items-center justify-between p-2 sm:pt-4">
+    <a href="{{ get_url(path='/') }}">
       <img src="{{ get_url(path='images/logo.png') | safe }}" alt="Logo da minha marca pessoal" />
     </a>
-    <nav class="flex gap-x-3">
-      <a href="{{ get_url(path='@/about.md') | safe }}" class="px-5 py-2 text-gray-500 hover:text-white hover:bg-gray-800 transition-colors duration-500 rounded-md no-underline">Sobre mim</a>
-      <a href="{{ get_url(path='@/blog/_index.md') | safe }}" class="px-5 py-2 text-gray-500 hover:text-white hover:bg-gray-800 transition-colors duration-500 rounded-md no-underline">Blog</a>
-      <a href="{{ get_url(path='@/projects/_index.md') | safe }}" class="px-5 py-2 text-gray-500 hover:text-white hover:bg-gray-800 transition-colors duration-500 rounded-md no-underline">Projetos</a>
+    <nav class="flex items-center text-center gap-x-3">
+      <a
+        href="{{ get_url(path='@/about.md') | safe }}"
+        class="px-2 sm:px-5 py-2 text-gray-500 hover:text-white hover:bg-gray-800 transition-colors duration-500 rounded-md no-underline"
+      >
+        Sobre mim
+      </a>
+      <a
+        href="{{ get_url(path='@/blog/_index.md') | safe }}"
+        class="px-1 sm:px-5 py-2 text-gray-500 hover:text-white hover:bg-gray-800 transition-colors duration-500 rounded-md no-underline"
+      >
+        Blog
+      </a>
+      <a
+        href="{{ get_url(path='@/projects/_index.md') | safe }}"
+        class="px-2 sm:px-5 py-2 text-gray-500 hover:text-white hover:bg-gray-800 transition-colors duration-500 rounded-md no-underline"
+      >
+        Projetos
+      </a>
     </nav>
-    <nav class="pe-5 flex gap-x-3">
+    <nav class="sm:pe-5 flex gap-x-1 sm:gap-x-3">
       <a href="https://github.com/jlucfarias">
         <img class="invert-[.5] hover:invert transition duration-200" width="36" height="36" src="https://img.icons8.com/material-rounded/96/github.png" alt="Github Logo" />
       </a>
       <a href="https://linkedin.com/in/jlucfarias">
-        <img class="invert-[.5] hover:invert transition duration-200" width="36" height="36" src="https://img.icons8.com/material-rounded/96/linkedin--v1.png" alt="Linkedin Logo"/>
+        <img class="invert-[.5] hover:invert transition duration-200" width="36" height="36" src="https://img.icons8.com/material-rounded/96/linkedin--v1.png" alt="Linkedin Logo" />
       </a>
     </nav>
   </header>

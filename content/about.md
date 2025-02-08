@@ -11,9 +11,9 @@ extra:
   }
 </style>
 
-# Aprenda, mas transmita { .text-white .text-5xl .mb-5 }
+# Aprenda, mas transmita { .text-white .text-3xl .sm:text-5xl .mb-5 }
 
-<div class="resume-container flex gap-x-5 mb-4">
+<div class="flex flex-col sm:flex-row sm:items-center lg:items-stretch gap-y-4 sm:gap-x-5 mb-4">
 
 ![Foto minha de perfil](/images/profile.png)
 
@@ -28,25 +28,25 @@ extra:
   </div>
 </div>
 
-## Minha carreira { .text-white .text-4xl .my-4 }
+## Minha carreira { .text-white .text-2xl .sm:text-4xl .my-2 .sm:my-4 }
 
 **CEO**  
 LUC DEV • Natal - RN, Brasil  
 Out 2024 – Atual • 3 meses
 
-<div class="mb-4"></div>
+<div class="mb-2 sm:mb-4"></div>
 
 **Desenvolvedor Full-stack**  
 Inodev Tecnologia da Informação • Natal - RN, Brasil  
 Dez de 2020 – Ago de 2024 • 3 anos e 9 meses
 
-<div class="mb-4"></div>
+<div class="mb-2 sm:mb-4"></div>
 
 **Estagiário**  
 TECSOFT • Natal - RN, Brasil  
 Jun de 2020 – Out de 2020 • 5 meses
 
-<div class="mb-4"></div>
+<div class="mb-2 sm:mb-4"></div>
 
 **Estagiário**  
 Tootz • Natal - RN, Brasil  

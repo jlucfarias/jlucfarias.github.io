@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -17,5 +19,8 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
+    plugin(({ addVariant }) => {
+      addVariant('has-hover', '@media (hover: hover) and (pointer: fine)')
+    }),
   ],
 }
