@@ -62,7 +62,7 @@
     <meta property="og:description" content="{{ config.description }}" />
   {%- endif -%}
 
-  {%- if is_404 -%}
+  {%- if not current_url -%}
     <meta name="robots" content="noindex, follow" />
   {%- else -%}
     <meta name="robots" content="index, follow" />
@@ -93,7 +93,9 @@
     <meta name="twitter:card" content="summary_large_image" />
   {%- endif -%}
 
-  <meta property="og:url" content="{{ current_url }}" />
+  {%- if current_url -%}
+    <meta property="og:url" content="{{ current_url }}" />
+  {%- endif -%}
 
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />

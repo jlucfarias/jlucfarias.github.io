@@ -1,0 +1,8 @@
+{%- extends "base.html" -%}
+{%- set is_404 = true -%}
+
+{%- block content -%}
+  <main class="h-full flex flex-col justify-center items-center">
+    <img src="{{ get_url(path='images/404.svg') }}" />
+  </main>
+{%- endblock content -%}
