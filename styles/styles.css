@@ -47,6 +47,16 @@ em {
   @apply text-gray-200
 }
 
+@media print {
+  strong, a {
+    @apply text-black
+  }
+
+  em {
+    @apply text-gray-800
+  }
+}
+
 a {
   @apply underline underline-offset-4 duration-100
 }

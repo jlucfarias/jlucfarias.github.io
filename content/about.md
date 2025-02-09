@@ -9,15 +9,21 @@ extra:
   main img {
     width: 80vw;
   }
+
+  @media print {
+    main img {
+      width: 20vw;
+    }
+  }
 </style>
 
-# Aprenda, mas transmita { .text-white .text-3xl .sm:text-5xl .mb-5 }
+# Aprenda, mas transmita { .print:hidden .text-white .text-3xl .sm:text-5xl .mb-5 }
 
-<div class="flex flex-col sm:flex-row sm:items-center lg:items-stretch gap-y-4 sm:gap-x-5 mb-4">
+<div class="flex flex-col sm:flex-row print:flex-col sm:items-center print:items-start lg:items-stretch gap-y-4 sm:gap-x-5 mb-4">
 
 ![Foto minha de perfil](/images/profile.png)
 
-  <div class="flex flex-col gap-y-3">
+  <div class="flex flex-col gap-y-3 print:gap-y-1">
 
   Opa! Me chamo **João Lucas**. Comecei no desenvolvimento de software em 2014 utilizando asp.Net (mesmo que meu foco sempre tenha sido com frontend).
 
@@ -28,7 +34,7 @@ extra:
   </div>
 </div>
 
-## Minha carreira { .text-white .text-2xl .sm:text-4xl .my-2 .sm:my-4 }
+## Minha carreira { .text-white .print:text-black .text-2xl .sm:text-4xl .my-2 .sm:my-4 }
 
 **CEO**  
 LUC DEV • Natal - RN, Brasil  
