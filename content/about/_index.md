@@ -2,7 +2,7 @@
 title: "Sobre mim"
 template: about.html
 extra:
-  social_image: about.png
+  social_image: about/preview.png
 ---
 
 <style>

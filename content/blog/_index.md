@@ -2,7 +2,7 @@
 title: "Blog"
 template: blog/index.html
 extra:
-  social_image: blog/archive.png
+  social_image: blog/preview.png
 ---
 
 # Meu blog { .text-white .print:text-black .text-4xl .lg:text-5xl .mb-2 .lg:mb-5 }
