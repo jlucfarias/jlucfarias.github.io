@@ -72,3 +72,17 @@ ul {
   margin-inline-start: 0.5rem;
   padding-inline-start: 0.75rem;
 }
+
+audio::-webkit-media-controls-enclosure {
+  @apply border-x-0 border-y border-solid border-gray-500 rounded-none bg-black
+}
+
+audio::-webkit-media-controls-play-button {
+  box-shadow: 0 0 0 1px #fafafa;
+
+  @apply rounded-full me-2
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  display: none;
+}

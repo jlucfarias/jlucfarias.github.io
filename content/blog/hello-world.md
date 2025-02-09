@@ -5,6 +5,7 @@ date: 2025-01-26
 template: blog/post.html
 extra:
   social_image: blog/hello-world.png
+  audio: blog/hello-world.mp3
 ---
 
 Para início de conversa, seja muito bem-vindo(a) a esse blog. Espero que possa te ajudar de alguma forma o que encontrar por aqui.

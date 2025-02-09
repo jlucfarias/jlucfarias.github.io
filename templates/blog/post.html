@@ -7,6 +7,13 @@
       <div class="flex items-center gap-x-1 mb-2 xl:mb-4">
         <span class="text-white print:text-gray-800 text-xs sm:text-sm">{{ page.date | date(format="%d/%m/%Y") | safe }}</span> • <span class="text-xs print:text-gray-800 sm:text-sm">Tempo de leitura: {{ page.reading_time }} minutos</span>
       </div>
+      {%- if page.extra.audio -%}
+        <div class="print:hidden mb-3">
+          <p class="text-white mb-1">Prefere em áudio?</p>
+          <audio class="w-full" controls preload="auto" src="{{ get_url(path=page.extra.audio, cachebust=true) }}">
+          </audio>
+        </div>
+      {% endif %}
       <div class="flex flex-col gap-y-2 xl:gap-y-4 print:gap-y-2 text-sm sm:text-base">
         {{ page.content | safe }}
       </div>
