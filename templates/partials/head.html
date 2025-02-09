@@ -99,4 +99,10 @@
 
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+  {%- if page.components -%}
+    {%- if page.components.0 == "blog" -%}
+      <link href="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/style.min.css" rel="stylesheet" />
+    {%- endif -%}
+  {%- endif -%}
 </head>

@@ -806,6 +806,10 @@ video {
   font-weight: 700;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(193 193 193 / var(--tw-text-opacity, 1));

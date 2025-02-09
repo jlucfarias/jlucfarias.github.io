@@ -19,4 +19,15 @@
       </div>
     </article>
   </main>
+  {%- if page.components -%}
+    {%- if page.components.0 == "blog" -%}
+      <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script>
+      <script>
+        mediumZoom('[data-zoomable]', {
+          margin: 32,
+          background: '#212121',
+        });
+      </script>
+    {%- endif -%}
+  {%- endif -%}
 {%- endblock content -%}
