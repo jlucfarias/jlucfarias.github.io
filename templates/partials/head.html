@@ -7,17 +7,29 @@
   <meta name="base" content="{{ config.base_url | safe }}" />
   <link rel="icon" href="{{ get_url(path='images/icons/favicon.svg') | safe }}" sizes="any" type="image/svg+xml" />
   <link rel="icon shortcut" href="{{ get_url(path='images/icons/favicon.ico') | safe }}" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="{{ get_url(path='images/icons/apple-touch-icon-57x57.png') | safe }}" sizes="57x57" />
-  <link rel="apple-touch-icon" href="{{ get_url(path='images/icons/apple-touch-icon-60x60.png') | safe }}" sizes="60x60" />
-  <link rel="apple-touch-icon" href="{{ get_url(path='images/icons/apple-touch-icon-72x72.png') | safe }}" sizes="72x72" />
-  <link rel="apple-touch-icon" href="{{ get_url(path='images/icons/apple-touch-icon-76x76.png') | safe }}" sizes="76x76" />
-  <link rel="apple-touch-icon" href="{{ get_url(path='images/icons/apple-touch-icon-114x114.png') | safe }}" sizes="114x114" />
-  <link rel="apple-touch-icon" href="{{ get_url(path='images/icons/apple-touch-icon-120x120.png') | safe }}" sizes="120x120" />
-  <link rel="apple-touch-icon" href="{{ get_url(path='images/icons/apple-touch-icon-144x144.png') | safe }}" sizes="144x144" />
-  <link rel="apple-touch-icon" href="{{ get_url(path='images/icons/apple-touch-icon-152x152.png') | safe }}" sizes="152x152" />
-  <link rel="apple-touch-icon" href="{{ get_url(path='images/icons/apple-touch-icon-180x180.png') | safe }}" sizes="180x180" />
-  <link rel="apple-touch-icon" href="{{ get_url(path='images/icons/apple-touch-icon-256x256.png') | safe }}" sizes="256x256" />
-  <meta name="msapplication-TileImage" content="{{ get_url(path='images/icons/ms-icon-144x144.png') | safe }}" />
+
+  {% set apple_image57 = resize_image(path='images/icons/favicon.png', width=57, op="fit_width") %}
+  <link rel="apple-touch-icon" href="{{ apple_image57.url | safe }}" sizes="57x57" />
+  {% set apple_image60 = resize_image(path='images/icons/favicon.png', width=60, op="fit_width") %}
+  <link rel="apple-touch-icon" href="{{ apple_image60.url | safe }}" sizes="60x60" />
+  {% set apple_image72 = resize_image(path='images/icons/favicon.png', width=72, op="fit_width") %}
+  <link rel="apple-touch-icon" href="{{ apple_image72.url | safe }}" sizes="72x72" />
+  {% set apple_image76 = resize_image(path='images/icons/favicon.png', width=76, op="fit_width") %}
+  <link rel="apple-touch-icon" href="{{ apple_image76.url | safe }}" sizes="76x76" />
+  {% set apple_image114 = resize_image(path='images/icons/favicon.png', width=114, op="fit_width") %}
+  <link rel="apple-touch-icon" href="{{ apple_image114.url | safe }}" sizes="114x114" />
+  {% set apple_image120 = resize_image(path='images/icons/favicon.png', width=120, op="fit_width") %}
+  <link rel="apple-touch-icon" href="{{ apple_image120.url | safe }}" sizes="120x120" />
+  {% set apple_image144 = resize_image(path='images/icons/favicon.png', width=144, op="fit_width") %}
+  <link rel="apple-touch-icon" href="{{ apple_image144.url | safe }}" sizes="144x144" />
+  {% set apple_image152 = resize_image(path='images/icons/favicon.png', width=152, op="fit_width") %}
+  <link rel="apple-touch-icon" href="{{ apple_image152.url | safe }}" sizes="152x152" />
+  {% set apple_image180 = resize_image(path='images/icons/favicon.png', width=180, op="fit_width") %}
+  <link rel="apple-touch-icon" href="{{ apple_image180.url | safe }}" sizes="180x180" />
+  {% set apple_image256 = resize_image(path='images/icons/favicon.png', width=256, op="fit_width") %}
+  <link rel="apple-touch-icon" href="{{ apple_image256.url | safe }}" sizes="256x256" />
+  {% set mstile_image = resize_image(path='images/icons/favicon.png', width=144, op="fit_width") %}
+  <meta name="msapplication-TileImage" content="{{ mstile_image.url | safe }}" />
 
   {%- if config.generate_feeds | default(value=config.generate_feed) -%}
     {%- if config.feed_filenames -%}

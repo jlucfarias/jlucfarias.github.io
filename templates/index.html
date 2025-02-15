@@ -3,9 +3,10 @@
 {%- block content -%}
   <main class="flex-auto text-gray-500 print:text-gray-800 ps-4 sm:ps-48 lg:ps-80 xl:ps-96">
     <article class="h-full flex flex-col justify-center py-auto">
-      <img class="hidden print:block max-w-36 border border-gray-800 mb-4" src="{{ get_url(path='images/profile.png') | safe }}" />
+      {% set profile_image = resize_image(path='images/profile.png', width=576, op="fit_width") %}
+      <img class="hidden print:block max-w-36 mb-4" src="{{ profile_image.url | safe }}" />
       {{ section.content | safe }}
-      <nav class="hidden print:flex flex-col gap-x-1 gap-y-1 mt-2"> <!-- hidden print:block -->
+      <nav class="hidden print:flex flex-col gap-x-1 gap-y-1 mt-2">
         <a class="flex items-center gap-x-2 text-gray-800" href="https://github.com/jlucfarias">
           https://github.com/jlucfarias
           <img class="hover:invert" width="20" height="20" src="https://img.icons8.com/material-rounded/96/github.png" alt="Github Logo" />
