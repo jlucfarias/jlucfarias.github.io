@@ -18,6 +18,8 @@ author = "João Lucas Farias"
 highlight_code = true
 highlight_theme = "dracula"
 
+external_links_target_blank = true
+
 bottom_footnotes = true
 
 [extra]

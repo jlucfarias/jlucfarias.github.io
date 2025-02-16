@@ -642,10 +642,6 @@ video {
           user-select: none;
 }
 
-.list-decimal {
-  list-style-type: decimal;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -1251,15 +1247,6 @@ details[open]::details-content {
 
   .print\:p-0 {
     padding: 0px;
-  }
-
-  .print\:ps-0 {
-    padding-inline-start: 0px;
-  }
-
-  .print\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .print\:text-xl {

@@ -1,0 +1,28 @@
+{%- if path -%}
+  <figure class="flex flex-col gap-y-1">
+    <picture>
+      {% set image_sm = resize_image(path=path, width=640, op="fit_width") %}
+      <source srcset="{{ image_sm.url }}" media="(max-width: 640px)" />
+      {% set image_md = resize_image(path=path, width=768, op="fit_width") %}
+      <source srcset="{{ image_md.url }}" media="(max-width: 768px)" />
+      {% set image_lg = resize_image(path=path, width=1024, op="fit_width") %}
+      <source srcset="{{ image_lg.url }}" media="(max-width: 1024px)" />
+      {% set image_xl = resize_image(path=path, width=1280, op="fit_width") %}
+      <source srcset="{{ image_xl.url }}" media="(max-width: 1280px)" />
+      {% set image_2xl = resize_image(path=path, width=1536, op="fit_width") %}
+      <source srcset="{{ image_2xl.url }}" media="(max-width: 1536px)" />
+      <img
+        class="select-none"
+        src="{{ path }}"
+        {%- if alt -%} alt="{{ alt }}" {%- endif -%}
+        loading="lazy"
+        data-zoomable
+      />
+    </picture>
+    {%- if body -%}
+      <figcaption class="text-center text-sm italic">
+        {{ body | markdown | safe }}
+      </figcaption>
+    {%- endif -%}
+  </figure>
+{%- endif -%}

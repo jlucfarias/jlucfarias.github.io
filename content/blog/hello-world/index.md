@@ -14,12 +14,11 @@ Desde 2014, quando iniciei meus estudos na área de programação, sempre tive u
 
 Sempre fui uma pessoa que repassava o que lia para os outros e tinha minhas próprias opiniões sobre várias coisas, mas nunca escrevi sobre o que penso. Por diversas vezes encontrei pessoas que não sabiam o que eu sabia e não pareciam ter o mesmo acesso que eu tinha (por não saber inglês, por não ter uma internet tão boa e vários outros motivos). Por isso mesmo, tentei ajudar de algumas formas como participar de traduções como da documentação do React ([#161](https://github.com/reactjs/pt-br.react.dev/pull/161), [#167](https://github.com/reactjs/pt-br.react.dev/pull/167), [#168](https://github.com/reactjs/pt-br.react.dev/pull/168) e [#171](https://github.com/reactjs/pt-br.react.dev/pull/171)), do [Keep a Changelog](https://github.com/olivierlacan/keep-a-changelog/pull/577), da [especificação do Semantic Versioning](https://github.com/semver/semver.org/pull/430) e várias outras coisas, mas tudo isso ainda parecia pouco e daí me veio novamente a ideia de escrever num blog. Muitas pessoas sempre me falaram que eu tinha uma boa capacidade de escrita e eu sabia que tinha uma boa capacidade de aprendizado, nada mais justo então que unir ambas as coisas e disponibilizar num ambiente que qualquer um possa também aprender.
 
-<figure>
-  <img class="mb-1" src="/blog/hello-world/social-networks.jpg" data-zoomable />
-  <figcaption class="text-center text-sm italic">
-    Foto de <a href="https://unsplash.com/pt-br/@ademay?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Adem AY</a> na <a href="https://unsplash.com/pt-br/fotografias/dispositivo-digital-branco-e-rosa-Tk9m_HP4rgQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  </figcaption>
-</figure>
+{% image(path="/blog/hello-world/social-networks.jpg") %}
+
+Foto de [Adem AY](https://unsplash.com/pt-br/@ademay?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) na [Unsplash](https://unsplash.com/pt-br/fotografias/dispositivo-digital-branco-e-rosa-Tk9m_HP4rgQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+{% end %}
 
 Criar um blog na época das IAs, dos infinitos cursos, dos tantos canais e páginas em redes sociais parece até estranho, mas pra mim é um local de maior liberdade daquilo que desejo falar e daquilo que posso fazer, afinal eu tenho controle sobre o conteúdo e sobre como mostrar esse conteúdo. Não tenho dependência de uma rede social que pode acabar com o alcance de uma publicação por motivos não muito claros ou ter que depender de um engajamento que ninguém realmente quer fazer.
 
