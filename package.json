@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple note-taking and thought-dumping blog",
   "scripts": {
-    "prod": "NODE_ENV=production npx tailwindcss -i styles/styles.css -o static/styles/styles.css; zola build",
+    "prod": "NODE_ENV=production npx tailwindcss -i styles/styles.css -o static/styles/styles.css --minify",
     "dev": "npx tailwindcss -i styles/styles.css -o static/styles/styles.css --watch"
   },
   "author": "João Lucas Farias",
