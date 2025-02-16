@@ -86,3 +86,24 @@ audio::-webkit-media-controls-play-button {
 audio::-webkit-media-controls-time-remaining-display {
   display: none;
 }
+
+details::details-content {
+  transition: height 350ms ease-in;
+  height: 0;
+
+  @apply flex flex-col items-start gap-y-2
+}
+
+details[open]::details-content {
+  height: auto;
+}
+
+@media print {
+  details summary {
+    list-style: none;
+  }
+
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+}

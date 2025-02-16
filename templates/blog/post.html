@@ -14,6 +14,17 @@
           </audio>
         </div>
       {% endif %}
+      {%- if page.toc -%}
+        <details class="p-3 print:p-0 bg-gray-800 flex flex-col mb-3" open>
+          <summary class="text-white print:text-black text-lg print:text-xl font-bold select-none">Sumário</summary>
+          {%- for section in page.toc -%}
+            <div>
+              <span class="hidden print:inline">{{ loop.index }}.</span>
+              <a class="ps-1" href="{{ section.permalink | safe }}">{{ section.title }}</a>
+            </div>
+          {%- endfor -%}
+        </details>
+      {% endif %}
       <div class="flex flex-col gap-y-2 xl:gap-y-4 print:gap-y-2 text-sm sm:text-base">
         {{ page.content | safe }}
       </div>
