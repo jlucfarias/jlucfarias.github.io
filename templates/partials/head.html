@@ -98,11 +98,17 @@
   {%- if social_path -%}
     {%- set meta = get_image_metadata(path=social_path, allow_missing=true) -%}
 
-    <meta property="og:image" content="{{ get_url(path=social_path, cachebust=true) }}" />
-    <meta property="og:image:width" content="{{ meta.width }}" />
-    <meta property="og:image:height" content="{{ meta.height }}" />
-    <meta name="twitter:image" content="{{ get_url(path=social_path, cachebust=true) }}" />
-    <meta name="twitter:card" content="summary_large_image" />
+    {%- if meta -%}
+      {%- set social_image = resize_image(path=social_path, width=1200, op="fit_width") -%}
+
+      {%- if social_image.url -%}
+        <meta property="og:image" content="{{ social_image.url }}" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:image" content="{{ social_image.url }}" />
+        <meta name="twitter:card" content="summary_large_image" />
+      {%- endif -%}
+    {%- endif -%}
   {%- endif -%}
 
   {%- if current_url -%}

@@ -2,7 +2,7 @@
 title: "Meus projetos"
 template: projects.html
 extra:
-  social_image: projects/preview.png
+  social_image: "projects/preview.png"
 ---
 
 # Open-source + Hobby = Projetos Pessoais { .text-white .print:text-black .text-2xl .md:text-3xl .lg:text-4xl .mb-2 .sm:mb-4 .print:mb-2 }

@@ -4,7 +4,7 @@ description: "Por que eu resolvi criar esse blog? Sobre o que falarei por aqui?"
 date: 2025-01-26
 template: blog/post.html
 extra:
-  social_image: blog/hello-world/preview.png
+  social_image: "blog/hello-world/preview.png"
   audio: blog/hello-world/audio.mp3
 ---
 
