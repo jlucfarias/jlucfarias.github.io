@@ -3,7 +3,7 @@
 {%- block content -%}
   <main class="flex-auto text-gray-500 print:text-gray-800 ps-4 sm:ps-48 lg:ps-80 xl:ps-96">
     <article class="h-full flex flex-col justify-center py-auto">
-      {% set profile_image = resize_image(path='images/profile.png', width=576, op="fit_width") %}
+      {% set profile_image = resize_image(path='images/profile.jpeg', width=576, op="fit_width") %}
       <img class="hidden print:block max-w-36 mb-4" src="{{ profile_image.url | safe }}" />
       {{ section.content | safe }}
       <nav class="hidden print:flex flex-col gap-x-1 gap-y-1 mt-2">
