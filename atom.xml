@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+    <title>Luc Blog</title>
+    <subtitle>A simple note-taking and thought-dumping blog</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://jlucfarias.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://jlucfarias.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-26T00:00:00+00:00</updated>
+    <id>https://jlucfarias.github.io/atom.xml</id>
+    <entry xml:lang="pt-BR">
+        <title>Hello, World!</title>
+        <published>2025-01-26T00:00:00+00:00</published>
+        <updated>2025-01-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              João Lucas Farias
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://jlucfarias.github.io/blog/hello-world/"/>
+        <id>https://jlucfarias.github.io/blog/hello-world/</id>
+        
+        <content type="html" xml:base="https://jlucfarias.github.io/blog/hello-world/">&lt;p&gt;Para início de conversa, seja muito bem-vindo(a) a esse blog. Espero que possa te ajudar de alguma forma o que encontrar por aqui.&lt;&#x2F;p&gt;
+&lt;p&gt;Desde 2014, quando iniciei meus estudos na área de programação, sempre tive um gosto por perceber como essa é uma área que há um compartilhamento interessante de conhecimento. Muito do que eu sei hoje vieram das muitas horas de leituras de postagens em blogs (e logicamente de muita prática) e daí veio a minha vontade de &lt;strong&gt;criar o meu próprio blog&lt;&#x2F;strong&gt;, porém eu nunca tinha entendido os assuntos que trataria e como começar um, mas esse ano (2025) me reocorreu essa ideia há muito alimentada, mas nunca posta em prática.&lt;&#x2F;p&gt;
+&lt;p&gt;Sempre fui uma pessoa que repassava o que lia para os outros e tinha minhas próprias opiniões sobre várias coisas, mas nunca escrevi sobre o que penso. Por diversas vezes encontrei pessoas que não sabiam o que eu sabia e não pareciam ter o mesmo acesso que eu tinha (por não saber inglês, por não ter uma internet tão boa e vários outros motivos). Por isso mesmo, tentei ajudar de algumas formas como participar de traduções como da documentação do React (&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;reactjs&#x2F;pt-br.react.dev&#x2F;pull&#x2F;161&quot;&gt;#161&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;reactjs&#x2F;pt-br.react.dev&#x2F;pull&#x2F;167&quot;&gt;#167&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;reactjs&#x2F;pt-br.react.dev&#x2F;pull&#x2F;168&quot;&gt;#168&lt;&#x2F;a&gt; e &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;reactjs&#x2F;pt-br.react.dev&#x2F;pull&#x2F;171&quot;&gt;#171&lt;&#x2F;a&gt;), do &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;olivierlacan&#x2F;keep-a-changelog&#x2F;pull&#x2F;577&quot;&gt;Keep a Changelog&lt;&#x2F;a&gt;, da &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;semver&#x2F;semver.org&#x2F;pull&#x2F;430&quot;&gt;especificação do Semantic Versioning&lt;&#x2F;a&gt; e várias outras coisas, mas tudo isso ainda parecia pouco e daí me veio novamente a ideia de escrever num blog. Muitas pessoas sempre me falaram que eu tinha uma boa capacidade de escrita e eu sabia que tinha uma boa capacidade de aprendizado, nada mais justo então que unir ambas as coisas e disponibilizar num ambiente que qualquer um possa também aprender.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;flex flex-col gap-y-1&quot;&gt;
+    &lt;picture&gt;
+      
+      &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.09a5ad625c1c1a31.jpg&quot; media=&quot;(max-width: 640px)&quot; &#x2F;&gt;
+      
+      &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.0f2b52d68d62c224.jpg&quot; media=&quot;(max-width: 768px)&quot; &#x2F;&gt;
+      
+      &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.816fdf001acfafdb.jpg&quot; media=&quot;(max-width: 1024px)&quot; &#x2F;&gt;
+      
+      &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.5779049cc5580631.jpg&quot; media=&quot;(max-width: 1280px)&quot; &#x2F;&gt;
+      
+      &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.664e2272da7f5b6d.jpg&quot; media=&quot;(max-width: 1536px)&quot; &#x2F;&gt;
+      &lt;img
+        class=&quot;select-none&quot;
+        src=&quot;&amp;#x2F;blog&amp;#x2F;hello-world&amp;#x2F;social-networks.jpg&quot;loading=&quot;lazy&quot;
+        data-zoomable
+      &#x2F;&gt;
+    &lt;&#x2F;picture&gt;&lt;figcaption class=&quot;text-center text-sm italic&quot;&gt;
+        &lt;p&gt;Foto de &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;unsplash.com&#x2F;pt-br&#x2F;@ademay?utm_content=creditCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=unsplash&quot;&gt;Adem AY&lt;&#x2F;a&gt; na &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;unsplash.com&#x2F;pt-br&#x2F;fotografias&#x2F;dispositivo-digital-branco-e-rosa-Tk9m_HP4rgQ?utm_content=creditCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=unsplash&quot;&gt;Unsplash&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+
+      &lt;&#x2F;figcaption&gt;&lt;&#x2F;figure&gt;
+&lt;p&gt;Criar um blog na época das IAs, dos infinitos cursos, dos tantos canais e páginas em redes sociais parece até estranho, mas pra mim é um local de maior liberdade daquilo que desejo falar e daquilo que posso fazer, afinal eu tenho controle sobre o conteúdo e sobre como mostrar esse conteúdo. Não tenho dependência de uma rede social que pode acabar com o alcance de uma publicação por motivos não muito claros ou ter que depender de um engajamento que ninguém realmente quer fazer.&lt;&#x2F;p&gt;
+&lt;p&gt;Não sei se colocarei alguma regra para regularidade de postagens, ainda não decidi, mas com certeza darei atenção razoável a esse espaço. Inicialmente pretendo falar do que faço no trabalho, nos projetos pessoais, no que li recentemente e às vezes surgirá sobre algum outro assunto.&lt;&#x2F;p&gt;
+&lt;p&gt;Em todo caso, seja o que Deus quiser daqui pra frente.&lt;&#x2F;p&gt;
+&lt;p&gt;P.S.: esse blog tem bastante de inspiração no &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;zenorocha.com&#x2F;&quot;&gt;site do Zeno Rocha&lt;&#x2F;a&gt;, um grande dev que é uma inspiração pra mim.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
