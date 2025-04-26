@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://jlucfarias.github.io/</loc>
+    </url>
+    <url>
+        <loc>https://jlucfarias.github.io/about/</loc>
+    </url>
+    <url>
+        <loc>https://jlucfarias.github.io/blog/</loc>
+    </url>
+    <url>
+        <loc>https://jlucfarias.github.io/blog/hello-world/</loc>
+        <lastmod>2025-01-26</lastmod>
+    </url>
+    <url>
+        <loc>https://jlucfarias.github.io/blog/vale-a-pena-fazer-faculdade/</loc>
+        <lastmod>2025-04-26</lastmod>
+    </url>
+    <url>
+        <loc>https://jlucfarias.github.io/projects/</loc>
+    </url>
+</urlset>
