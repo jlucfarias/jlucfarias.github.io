@@ -10,7 +10,7 @@
       {%- if page.extra.audio -%}
         <div class="print:hidden mb-3">
           <p class="text-white mb-1">Prefere em áudio?</p>
-          <audio class="w-full" controls preload="auto" src="{{ get_url(path=page.extra.audio, cachebust=true) }}">
+          <audio class="w-full" controls controlsList="nodownload" preload="auto" src="{{ get_url(path=page.extra.audio, cachebust=true) }}">
           </audio>
         </div>
       {% endif %}
