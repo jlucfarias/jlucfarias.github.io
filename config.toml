@@ -1,9 +1,8 @@
 # The base URL of the site
 base_url = "https://jlucfarias.github.io"
 
-# The site title and description for feeds.
-title = "Luc Blog"
-description = "A simple note-taking and thought-dumping blog"
+title = "Blog do João Lucas"
+description = "Um blog com meus pensamentos e opiniões"
 
 default_language = "pt-BR"
 
