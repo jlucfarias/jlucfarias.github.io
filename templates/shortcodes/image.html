@@ -1,7 +1,7 @@
 {%- if path -%}
   <figure class="flex flex-col gap-y-1">
     <picture>
-      {% for format in ["webp", "jpg"] %}
+      {% for format in ["avif", "webp", "jpg"] %}
         {% set image_sm = resize_image(path=path, width=640, op="fit_width", format=format) %}
         {% set image_md = resize_image(path=path, width=768, op="fit_width", format=format) %}
         {% set image_lg = resize_image(path=path, width=1024, op="fit_width", format=format) %}
