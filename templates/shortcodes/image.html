@@ -1,16 +1,21 @@
 {%- if path -%}
   <figure class="flex flex-col gap-y-1">
     <picture>
-      {% set image_sm = resize_image(path=path, width=640, op="fit_width") %}
-      <source srcset="{{ image_sm.url }}" media="(max-width: 640px)" />
-      {% set image_md = resize_image(path=path, width=768, op="fit_width") %}
-      <source srcset="{{ image_md.url }}" media="(max-width: 768px)" />
-      {% set image_lg = resize_image(path=path, width=1024, op="fit_width") %}
-      <source srcset="{{ image_lg.url }}" media="(max-width: 1024px)" />
-      {% set image_xl = resize_image(path=path, width=1280, op="fit_width") %}
-      <source srcset="{{ image_xl.url }}" media="(max-width: 1280px)" />
-      {% set image_2xl = resize_image(path=path, width=1536, op="fit_width") %}
-      <source srcset="{{ image_2xl.url }}" media="(max-width: 1536px)" />
+      {% for format in ["webp", "jpg"] %}
+        {% set image_sm = resize_image(path=path, width=640, op="fit_width", format=format) %}
+        {% set image_md = resize_image(path=path, width=768, op="fit_width", format=format) %}
+        {% set image_lg = resize_image(path=path, width=1024, op="fit_width", format=format) %}
+        {% set image_xl = resize_image(path=path, width=1280, op="fit_width", format=format) %}
+        {% set image_2xl = resize_image(path=path, width=1536, op="fit_width", format=format) %}
+        {% if format == "jpg" %}
+          {% set format = "jpeg" %}
+        {% endif %}
+        <source srcset="{{ image_sm.url }}" media="(max-width: 640px)" type="image/{{ format }}" />
+        <source srcset="{{ image_md.url }}" media="(max-width: 768px)" type="image/{{ format }}" />
+        <source srcset="{{ image_lg.url }}" media="(max-width: 1024px)" type="image/{{ format }}" />
+        <source srcset="{{ image_xl.url }}" media="(max-width: 1280px)" type="image/{{ format }}" />
+        <source srcset="{{ image_2xl.url }}" media="(max-width: 1536px)" type="image/{{ format }}" />
+      {% endfor %}
       <img
         class="select-none"
         src="{{ path }}"
