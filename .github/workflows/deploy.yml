@@ -18,9 +18,9 @@ jobs:
         uses: taiki-e/install-action@v2
         with:
           tool: zola
-      - name: create preview images
-        run: |
-          npm run generate:preview
+      # - name: create preview images
+      #   run: |
+      #     npm run generate:preview
       - name: process preview images
         run: |
           npm run build
