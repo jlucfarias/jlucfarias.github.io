@@ -73,8 +73,13 @@ ul {
   padding-inline-start: 0.75rem;
 }
 
+audio {
+  padding: 3px 0;
+  @apply border-x-0 border-y border-solid border-gray-500 rounded-none
+}
+
 audio::-webkit-media-controls-enclosure {
-  @apply border-x-0 border-y border-solid border-gray-500 rounded-none bg-black
+  @apply rounded-none bg-black
 }
 
 audio::-webkit-media-controls-play-button {
