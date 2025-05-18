@@ -4,7 +4,7 @@
   <body class="w-full h-full flex flex-col bg-black">
     <header class="flex print:hidden items-center justify-between p-2 sm:pt-4">
       <a href="{{ get_url(path='/') }}">
-        <img src="{{ get_url(path='images/logo.png') | safe }}" alt="Logo da minha marca pessoal" />
+        <img class="select-none" src="{{ get_url(path='images/logo.png') | safe }}" alt="Logo da minha marca pessoal" />
       </a>
       <nav class="flex items-center text-center gap-x-3">
         <a
@@ -28,10 +28,10 @@
       </nav>
       <nav class="sm:pe-5 flex gap-x-1 sm:gap-x-3">
         <a href="https://github.com/jlucfarias">
-          <img class="invert-[.5] hover:invert transition duration-200" width="36" height="36" src="https://img.icons8.com/material-rounded/96/github.png" alt="Github Logo" />
+          <img class="invert-[.5] hover:invert transition duration-200 select-none" width="36" height="36" src="https://img.icons8.com/material-rounded/96/github.png" alt="Github Logo" />
         </a>
         <a href="https://linkedin.com/in/jlucfarias">
-          <img class="invert-[.5] hover:invert transition duration-200" width="36" height="36" src="https://img.icons8.com/material-rounded/96/linkedin--v1.png" alt="Linkedin Logo" />
+          <img class="invert-[.5] hover:invert transition duration-200 select-none" width="36" height="36" src="https://img.icons8.com/material-rounded/96/linkedin--v1.png" alt="Linkedin Logo" />
         </a>
       </nav>
     </header>

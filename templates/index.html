@@ -4,16 +4,16 @@
   <main class="flex-auto text-gray-500 print:text-gray-800 ps-4 sm:ps-48 lg:ps-80 xl:ps-96">
     <article class="h-full flex flex-col justify-center py-auto">
       {% set profile_image = resize_image(path='images/profile.jpeg', width=576, op="fit_width") %}
-      <img class="hidden print:block max-w-36 mb-4" src="{{ profile_image.url | safe }}" />
+      <img class="hidden print:block max-w-36 mb-4 select-none" src="{{ profile_image.url | safe }}" />
       {{ section.content | safe }}
       <nav class="hidden print:flex flex-col gap-x-1 gap-y-1 mt-2">
         <a class="flex items-center gap-x-2 text-gray-800" href="https://github.com/jlucfarias">
           https://github.com/jlucfarias
-          <img class="hover:invert" width="20" height="20" src="https://img.icons8.com/material-rounded/96/github.png" alt="Github Logo" />
+          <img class="hover:invert select-none" width="20" height="20" src="https://img.icons8.com/material-rounded/96/github.png" alt="Github Logo" />
         </a>
         <a class="flex items-center gap-x-2 text-gray-800" href="https://linkedin.com/in/jlucfarias">
           https://linkedin.com/in/jlucfarias
-          <img class="hover:invert" width="20" height="20" src="https://img.icons8.com/material-rounded/96/linkedin--v1.png" alt="Linkedin Logo" />
+          <img class="hover:invert select-none" width="20" height="20" src="https://img.icons8.com/material-rounded/96/linkedin--v1.png" alt="Linkedin Logo" />
         </a>
       </nav>
     </article>
