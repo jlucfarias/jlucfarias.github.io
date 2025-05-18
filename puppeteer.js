@@ -36,7 +36,7 @@ async function* getFiles(dir) {
       headless: true,
     });
     const page = await browser.newPage();
-    await page.goto(`http://localhost:1111${path}`);
+    await page.goto(`http://127.0.0.1:1111${path}`);
     await page.setViewport({ width: 1366, height: 630 });
 
     try {

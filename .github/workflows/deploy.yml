@@ -24,6 +24,9 @@ jobs:
       - name: process preview images
         run: |
           npm run build
+      - name: allow processed_images folder
+        run: |
+          sed '3d;4d' .gitignore
       - name: deploy
         uses: shalzz/zola-deploy-action@master
         env:
