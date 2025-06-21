@@ -12,23 +12,21 @@
 
         <h3 class="text-white print:text-black text-lg font-bold mt-2 mb-2 print:my-0">{{ year | safe }}</h3>
 
-        <section class="flex flex-wrap print:flex-col sm:gap-x-8 gap-y-3 sm:gap-y-5">
+        <section class="flex flex-wrap flex-col sm:gap-x-8 gap-y-3 sm:gap-y-5">
           {%- for post in posts -%}
-            <div class="p-2 sm:p-4 print:p-0 bg-gray-800 has-hover:bg-transparent has-hover:hover:bg-gray-800 transition-colors duration-500 max-w-sm sm:max-w-52 print:max-w-full {% if post.extra.draft -%} cursor-not-allowed draft-card {% endif %}">
-              <a class="no-underline {% if post.extra.draft -%} opacity-45 pointer-events-none {% endif %}" href="{{ post.permalink | safe }}">
-                <h4 class="text-white print:text-black text-xl mb-1 sm:mb-0 sm:text-2xl">{{ post.title }}</h4>
-                <p class="text-sm text-gray-500 print:text-gray-800">{{ post.description | safe }}</p>
-                <span class="text-xs">{{ post.date | date(format="%d-%m-%Y") | safe }}</span>
+            <a class="p-2 sm:p-4 print:p-0 bg-gray-800 has-hover:bg-transparent has-hover:hover:bg-gray-800 transition-colors duration-500 {% if post.extra.draft -%} cursor-not-allowed draft-card {% endif %} no-underline {% if post.extra.draft -%} opacity-45 pointer-events-none {% endif %}" href="{{ post.permalink | safe }}">
+              <h4 class="text-white print:text-black text-xl mb-1 sm:mb-0 sm:text-2xl">{{ post.title }}</h4>
+              <p class="text-sm text-gray-500 print:text-gray-800">{{ post.description | safe }}</p>
+              <span class="text-xs">{{ post.date | date(format="%d-%m-%Y") | safe }}</span>
 
-                {%- if post.taxonomies.labels -%}
-                  <div class="mb-2"></div>
+              {%- if post.taxonomies.labels -%}
+                <div class="mb-2"></div>
 
-                  {%- for label in post.taxonomies.labels -%}
-                    <span class="block w-fit text-xs px-4 py-1 rounded-full post-label-{{ label | safe }}">{{ label | safe }}</span>
-                  {%- endfor %}
-                {%- endif -%}
-              </a>
-            </div>
+                {%- for label in post.taxonomies.labels -%}
+                  <span class="block w-fit text-xs px-4 py-1 rounded-full post-label-{{ label | safe }}">{{ label | safe }}</span>
+                {%- endfor %}
+              {%- endif -%}
+            </a>
           {%- endfor -%}
         </section>
       {%- endfor -%}
