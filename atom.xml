@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+    <title>Blog do João Lucas</title>
+    <subtitle>Um blog com meus pensamentos e opiniões</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://jlucfarias.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://jlucfarias.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-04-26T00:00:00+00:00</updated>
+    <id>https://jlucfarias.github.io/atom.xml</id>
+    <entry xml:lang="pt-BR">
+        <title>Vale a pena fazer faculdade?</title>
+        <published>2025-04-26T00:00:00+00:00</published>
+        <updated>2025-04-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              João Lucas Farias
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://jlucfarias.github.io/blog/vale-a-pena-fazer-faculdade/"/>
+        <id>https://jlucfarias.github.io/blog/vale-a-pena-fazer-faculdade/</id>
+        
+        <content type="html" xml:base="https://jlucfarias.github.io/blog/vale-a-pena-fazer-faculdade/">&lt;p&gt;É bastante comum vermos quem está começando na área de programação perguntar isso, ou ainda quem já está na faculdade se tudo aquilo que é estudado alí é realmente útil. Eu mesmo me fiz essa pergunta e a resposta é bastante simples: &lt;strong&gt;depende&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Calma! Solte as pedras e deixe-me explicar um pouco essa minha resposta.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;flex flex-col gap-y-1&quot;&gt;
+    &lt;picture&gt;
+      
+        
+        
+        
+        
+        
+        
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.f1e2251959fa9dd5.avif&quot; media=&quot;(max-width: 640px)&quot; type=&quot;image&#x2F;avif&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.47139728454ac1c1.avif&quot; media=&quot;(max-width: 768px)&quot; type=&quot;image&#x2F;avif&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.3db591bfe19ee383.avif&quot; media=&quot;(max-width: 1024px)&quot; type=&quot;image&#x2F;avif&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.96ab180ff3ae06ea.avif&quot; media=&quot;(max-width: 1280px)&quot; type=&quot;image&#x2F;avif&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.3c238bbdb0542d48.avif&quot; media=&quot;(max-width: 1536px)&quot; type=&quot;image&#x2F;avif&quot; &#x2F;&gt;
+      
+        
+        
+        
+        
+        
+        
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.52b68d9718602c76.webp&quot; media=&quot;(max-width: 640px)&quot; type=&quot;image&#x2F;webp&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.922d6694e6a44be0.webp&quot; media=&quot;(max-width: 768px)&quot; type=&quot;image&#x2F;webp&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.539b1aae04131c6c.webp&quot; media=&quot;(max-width: 1024px)&quot; type=&quot;image&#x2F;webp&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.0c44e01283e7cd45.webp&quot; media=&quot;(max-width: 1280px)&quot; type=&quot;image&#x2F;webp&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.6cb9b433a945b4df.webp&quot; media=&quot;(max-width: 1536px)&quot; type=&quot;image&#x2F;webp&quot; &#x2F;&gt;
+      
+        
+        
+        
+        
+        
+        
+          
+        
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.1e3b5d2ed7dbdc29.jpg&quot; media=&quot;(max-width: 640px)&quot; type=&quot;image&#x2F;jpeg&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.1e716566ac38115d.jpg&quot; media=&quot;(max-width: 768px)&quot; type=&quot;image&#x2F;jpeg&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.7e3338951ac2c227.jpg&quot; media=&quot;(max-width: 1024px)&quot; type=&quot;image&#x2F;jpeg&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.322cd8b86f718a18.jpg&quot; media=&quot;(max-width: 1280px)&quot; type=&quot;image&#x2F;jpeg&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;vida-academica-medieval.7c77a8f13a9cd806.jpg&quot; media=&quot;(max-width: 1536px)&quot; type=&quot;image&#x2F;jpeg&quot; &#x2F;&gt;
+      
+      &lt;img
+        class=&quot;select-none&quot;
+        src=&quot;&amp;#x2F;blog&amp;#x2F;vale-a-pena-fazer-faculdade&amp;#x2F;vida-academica-medieval.jpg&quot;loading=&quot;lazy&quot;data-zoomable
+      &#x2F;&gt;
+    &lt;&#x2F;picture&gt;&lt;figcaption class=&quot;text-center text-sm italic&quot;&gt;
+        &lt;p&gt;Iluminura medieval presente no manuscrito &lt;em&gt;Rothschild Canticles&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+
+      &lt;&#x2F;figcaption&gt;&lt;&#x2F;figure&gt;
+&lt;p&gt;Para conseguir explicar, primeiro devemos ter em mente que a faculdade sempre foi um lugar onde os conhecimentos superiores estão concentrados. Então seria razoável de imaginar que passar por uma faculdade significaria uma superioridade intelectual. Daí podemos compreender que não é estranho alguém achar que fazer faculdade seja essencial e que algumas vagas peçam isso. Mas não sejamos ingênuos, nem sempre quem faz faculdade possui realmente essa superioridade ou o trabalho necessite dos conhecimentos alí repassados (nem sempre o são também, mas não tenho intenção de criticar nada aqui). Outra coisa é que muitos (se não todos) dos conhecimentos que podemos adquirir num curso superior estão disponíveis fora dela: seja em livros, cursos, na internet, colegas de trabalho, amigos etc. Então talvez alguns (com razão) possam discordar da necessidade de se fazer uma faculdade. Por isso, acho que a discussão sobre isso deva estar em outra esfera que não a da necessidade: a do propósito.&lt;&#x2F;p&gt;
+&lt;p&gt;Somos humanos e todos temos, a menos que você esteja sem rumo na vida, algum propósito com as nossas ações: temos fome e portanto trabalhamos para conseguir o necessário para comer; Desejamos alguma experiência e portanto agimos para conseguir satisfazer esse desejo etc. Alguns possuem um propósito de trabalhar para empresas no exterior, outros possuem um propósito de construir produtos e vendê-los, outros ainda possuem um propósito de passar em um concurso público. Seja qual for esse propósito, fazer faculdade deve estar alinhado com ele. Então retomo aqui minha resposta: fazer faculdade vale a pena? Depende. De quê? Do seu propósito.&lt;&#x2F;p&gt;
+&lt;p&gt;Uma contra-argumentação possível é a de que mesmo tendo um propósito alinhado com a não necessidade de fazer faculdade, ser exigido um curso superior. Nesse caso, temos que considerar outra questão: aquilo que você quer está verdadeiramente alinhado com essa não necessidade? Dito de outro modo, há algum tipo de defasagem na consideração de um curso superior para o resultado desejado? Nesse caso nós caímos numa dificuldade que vai além de nós e cabe a nós provar que esse pensamento está defasado ou buscar outra coisa, ou ainda aceitar e se adequar. Se um emprego nos diz que precisamos ter um curso superior, é possível que provemos ser mais conhecedores de uma determinada tecnologia e mais hábeis do que aqueles que fizeram um curso superior (já vi acontecendo) e daí conseguimos demontrar que não há essa necessidade. Talvez mesmo demostrando isso, o empregador siquer considere sua demonstração e exija ainda assim. Nesse caso podemos ignorar aquela oportunidade, afinal nem toda oportunidade deve ser aceita, e partir para outro lugar que não exija. Mas se aquela oportunidade é tão importante que não podemos deixar passar, então que se faça faculdade e consiga essa oportunidade (isso se for possível esperar finalizar para conseguir).&lt;&#x2F;p&gt;
+&lt;p&gt;Seja como for, esse é apenas um texto de opinião elaborando as possibilidades, sem tomar muito partido e aceitando as considerações possíveis à questão. No final, só posso dizer que a escolha (do lado que você está nessa questão ou de fazer ou não uma) será sempre sua, leitor. Acho que vale aqui uma consideração final. Essa escolha, no fundo, não vai te fazer melhor ou pior, mais rico ou mais pobre, mais capaz ou incapaz. Ela tem realmente bem pouco peso no final das contas. Claro que é uma escolha que pode abrir ou fechar portas, mas a vida é tão repleta de escolhas assim que faz essa questão ter um peso muito menor do que normalmente apontam.&lt;&#x2F;p&gt;
+&lt;p&gt;Agradeço a quem leu até aqui e peço que compartilhe-o com quem você achar que precise ler isto. Seja para concordar, discordar, se encontrar ou talvez se perder mais ainda (faz parte).&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="pt-BR">
+        <title>Hello, World!</title>
+        <published>2025-01-26T00:00:00+00:00</published>
+        <updated>2025-01-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              João Lucas Farias
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://jlucfarias.github.io/blog/hello-world/"/>
+        <id>https://jlucfarias.github.io/blog/hello-world/</id>
+        
+        <content type="html" xml:base="https://jlucfarias.github.io/blog/hello-world/">&lt;p&gt;Para início de conversa, seja muito bem-vindo(a) a esse blog. Espero que possa te ajudar de alguma forma o que encontrar por aqui.&lt;&#x2F;p&gt;
+&lt;p&gt;Desde 2014, quando iniciei meus estudos na área de programação, sempre tive um gosto por perceber como essa é uma área que há um compartilhamento interessante de conhecimento. Muito do que eu sei hoje vieram das muitas horas de leituras de postagens em blogs (e logicamente de muita prática) e daí veio a minha vontade de &lt;strong&gt;criar o meu próprio blog&lt;&#x2F;strong&gt;, porém eu nunca tinha entendido os assuntos que trataria e como começar um, mas esse ano (2025) me reocorreu essa ideia há muito alimentada, mas nunca posta em prática.&lt;&#x2F;p&gt;
+&lt;p&gt;Sempre fui uma pessoa que repassava o que lia para os outros e tinha minhas próprias opiniões sobre várias coisas, mas nunca escrevi sobre o que penso. Por diversas vezes encontrei pessoas que não sabiam o que eu sabia e não pareciam ter o mesmo acesso que eu tinha (por não saber inglês, por não ter uma internet tão boa e vários outros motivos). Por isso mesmo, tentei ajudar de algumas formas como participar de traduções como da documentação do React (&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;reactjs&#x2F;pt-br.react.dev&#x2F;pull&#x2F;161&quot;&gt;#161&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;reactjs&#x2F;pt-br.react.dev&#x2F;pull&#x2F;167&quot;&gt;#167&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;reactjs&#x2F;pt-br.react.dev&#x2F;pull&#x2F;168&quot;&gt;#168&lt;&#x2F;a&gt; e &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;reactjs&#x2F;pt-br.react.dev&#x2F;pull&#x2F;171&quot;&gt;#171&lt;&#x2F;a&gt;), do &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;olivierlacan&#x2F;keep-a-changelog&#x2F;pull&#x2F;577&quot;&gt;Keep a Changelog&lt;&#x2F;a&gt;, da &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;semver&#x2F;semver.org&#x2F;pull&#x2F;430&quot;&gt;especificação do Semantic Versioning&lt;&#x2F;a&gt; e várias outras coisas, mas tudo isso ainda parecia pouco e daí me veio novamente a ideia de escrever num blog. Muitas pessoas sempre me falaram que eu tinha uma boa capacidade de escrita e eu sabia que tinha uma boa capacidade de aprendizado, nada mais justo então que unir ambas as coisas e disponibilizar num ambiente que qualquer um possa também aprender.&lt;&#x2F;p&gt;
+&lt;figure class=&quot;flex flex-col gap-y-1&quot;&gt;
+    &lt;picture&gt;
+      
+        
+        
+        
+        
+        
+        
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.bf6961dfd49fe8dd.avif&quot; media=&quot;(max-width: 640px)&quot; type=&quot;image&#x2F;avif&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.01878ba6aa321046.avif&quot; media=&quot;(max-width: 768px)&quot; type=&quot;image&#x2F;avif&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.55ae1f30fb0622b0.avif&quot; media=&quot;(max-width: 1024px)&quot; type=&quot;image&#x2F;avif&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.01b6253ed6997f84.avif&quot; media=&quot;(max-width: 1280px)&quot; type=&quot;image&#x2F;avif&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.8df782ae49f50fda.avif&quot; media=&quot;(max-width: 1536px)&quot; type=&quot;image&#x2F;avif&quot; &#x2F;&gt;
+      
+        
+        
+        
+        
+        
+        
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.423c93ee1b27ffb3.webp&quot; media=&quot;(max-width: 640px)&quot; type=&quot;image&#x2F;webp&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.1eead55b858e9ceb.webp&quot; media=&quot;(max-width: 768px)&quot; type=&quot;image&#x2F;webp&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.e3a3d5277295f53c.webp&quot; media=&quot;(max-width: 1024px)&quot; type=&quot;image&#x2F;webp&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.0a840b771df03516.webp&quot; media=&quot;(max-width: 1280px)&quot; type=&quot;image&#x2F;webp&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.43ffc7be1645cfab.webp&quot; media=&quot;(max-width: 1536px)&quot; type=&quot;image&#x2F;webp&quot; &#x2F;&gt;
+      
+        
+        
+        
+        
+        
+        
+          
+        
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.09a5ad625c1c1a31.jpg&quot; media=&quot;(max-width: 640px)&quot; type=&quot;image&#x2F;jpeg&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.0f2b52d68d62c224.jpg&quot; media=&quot;(max-width: 768px)&quot; type=&quot;image&#x2F;jpeg&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.816fdf001acfafdb.jpg&quot; media=&quot;(max-width: 1024px)&quot; type=&quot;image&#x2F;jpeg&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.5779049cc5580631.jpg&quot; media=&quot;(max-width: 1280px)&quot; type=&quot;image&#x2F;jpeg&quot; &#x2F;&gt;
+        &lt;source srcset=&quot;https:&amp;#x2F;&amp;#x2F;jlucfarias.github.io&amp;#x2F;processed_images&amp;#x2F;social-networks.664e2272da7f5b6d.jpg&quot; media=&quot;(max-width: 1536px)&quot; type=&quot;image&#x2F;jpeg&quot; &#x2F;&gt;
+      
+      &lt;img
+        class=&quot;select-none&quot;
+        src=&quot;&amp;#x2F;blog&amp;#x2F;hello-world&amp;#x2F;social-networks.jpg&quot;loading=&quot;lazy&quot;data-zoomable
+      &#x2F;&gt;
+    &lt;&#x2F;picture&gt;&lt;figcaption class=&quot;text-center text-sm italic&quot;&gt;
+        &lt;p&gt;Foto de &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;unsplash.com&#x2F;pt-br&#x2F;@ademay?utm_content=creditCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=unsplash&quot;&gt;Adem AY&lt;&#x2F;a&gt; na &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;unsplash.com&#x2F;pt-br&#x2F;fotografias&#x2F;dispositivo-digital-branco-e-rosa-Tk9m_HP4rgQ?utm_content=creditCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=unsplash&quot;&gt;Unsplash&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+
+      &lt;&#x2F;figcaption&gt;&lt;&#x2F;figure&gt;
+&lt;p&gt;Criar um blog na época das IAs, dos infinitos cursos, dos tantos canais e páginas em redes sociais parece até estranho, mas pra mim é um local de maior liberdade daquilo que desejo falar e daquilo que posso fazer, afinal eu tenho controle sobre o conteúdo e sobre como mostrar esse conteúdo. Não tenho dependência de uma rede social que pode acabar com o alcance de uma publicação por motivos não muito claros ou ter que depender de um engajamento que ninguém realmente quer fazer.&lt;&#x2F;p&gt;
+&lt;p&gt;Não sei se colocarei alguma regra para regularidade de postagens, ainda não decidi, mas com certeza darei atenção razoável a esse espaço. Inicialmente pretendo falar do que faço no trabalho, nos projetos pessoais, no que li recentemente e às vezes surgirá sobre algum outro assunto.&lt;&#x2F;p&gt;
+&lt;p&gt;Em todo caso, seja o que Deus quiser daqui pra frente.&lt;&#x2F;p&gt;
+&lt;p&gt;P.S.: esse blog tem bastante de inspiração no &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;zenorocha.com&#x2F;&quot;&gt;site do Zeno Rocha&lt;&#x2F;a&gt;, um grande dev que é uma inspiração pra mim.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
