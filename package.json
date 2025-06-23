@@ -8,8 +8,7 @@
     "build": "zola build",
     "dev": "zola serve",
     "dev:watch": "npx tailwindcss -i styles/styles.css -o static/styles/styles.css --watch",
-    "puppeteer": "node ./puppeteer.js",
-    "generate:preview": "npm-run-all -p -r dev puppeteer"
+    "puppeteer": "node ./puppeteer.js"
   },
   "author": "João Lucas Farias",
   "license": "MIT",

@@ -21,7 +21,7 @@ extra:
 
 <div class="flex flex-col sm:flex-row print:flex-col sm:items-center print:items-start lg:items-stretch gap-y-4 sm:gap-x-5 mb-4">
 
-![Foto minha de perfil](/images/profile.jpeg)
+  {{ image(path="/static/images/profile.jpeg", alt="Foto minha de perfil", lazy=false) }}
 
   <div class="flex flex-col gap-y-3 print:gap-y-1">
 

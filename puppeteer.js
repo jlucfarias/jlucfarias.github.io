@@ -16,13 +16,27 @@ async function* getFiles(dir) {
 }
 
 ;(async () => {
+  const rootPath = resolve('.');
   let paths = [
     '/',
   ];
+  const ignoredFolders = [
+    'images',
+    'processed_images',
+    'styles',
+  ];
 
-  for await (const f of getFiles('content')) {
-    const folder = f.slice(f.indexOf('content') + 7) + '/';
-    paths.push(folder);
+  for await (const f of getFiles('public')) {
+    const folder = f.slice(f.indexOf('public') + 7);
+
+    if (
+      ignoredFolders.includes(folder)
+      || ignoredFolders.filter(_folder => folder.includes(_folder)).length > 0
+    ) {
+      continue;
+    }
+
+    paths.push('/' + folder + '/');
   }
 
   paths.map(async path => {
@@ -36,16 +50,18 @@ async function* getFiles(dir) {
       headless: true,
     });
     const page = await browser.newPage();
-    await page.goto(`http://127.0.0.1:1111${path}`);
+    await page.goto(`file://${rootPath}/public${path}index.html`, {
+      waitUntil: 'networkidle0',
+    });
     await page.setViewport({ width: 1366, height: 630 });
 
     try {
       await page.screenshot({ path: `./content${path}preview.png`, optimizeForSpeed: true });
+      console.log(`Screenshot of ${path} has been captured successfully`);
     } catch (err) {
-      console.log(`Error: ${err.message}`);
+      console.error(`Error: ${err.message}`);
     } finally {
       await browser.close();
-      console.log(`Screenshot has been captured successfully`);
     }
   });
 })();

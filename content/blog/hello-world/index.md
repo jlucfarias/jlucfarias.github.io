@@ -14,7 +14,7 @@ Desde 2014, quando iniciei meus estudos na área de programação, sempre tive u
 
 Sempre fui uma pessoa que repassava o que lia para os outros e tinha minhas próprias opiniões sobre várias coisas, mas nunca escrevi sobre o que penso. Por diversas vezes encontrei pessoas que não sabiam o que eu sabia e não pareciam ter o mesmo acesso que eu tinha (por não saber inglês, por não ter uma internet tão boa e vários outros motivos). Por isso mesmo, tentei ajudar de algumas formas como participar de traduções como da documentação do React ([#161](https://github.com/reactjs/pt-br.react.dev/pull/161), [#167](https://github.com/reactjs/pt-br.react.dev/pull/167), [#168](https://github.com/reactjs/pt-br.react.dev/pull/168) e [#171](https://github.com/reactjs/pt-br.react.dev/pull/171)), do [Keep a Changelog](https://github.com/olivierlacan/keep-a-changelog/pull/577), da [especificação do Semantic Versioning](https://github.com/semver/semver.org/pull/430) e várias outras coisas, mas tudo isso ainda parecia pouco e daí me veio novamente a ideia de escrever num blog. Muitas pessoas sempre me falaram que eu tinha uma boa capacidade de escrita e eu sabia que tinha uma boa capacidade de aprendizado, nada mais justo então que unir ambas as coisas e disponibilizar num ambiente que qualquer um possa também aprender.
 
-{% image(path="/blog/hello-world/social-networks.jpg") %}
+{% image(path="/blog/hello-world/social-networks.jpg", lazy=true) %}
 
 Foto de [Adem AY](https://unsplash.com/pt-br/@ademay?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) na [Unsplash](https://unsplash.com/pt-br/fotografias/dispositivo-digital-branco-e-rosa-Tk9m_HP4rgQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 

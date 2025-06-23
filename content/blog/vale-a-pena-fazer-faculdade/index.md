@@ -12,7 +12,7 @@ extra:
 
 Calma! Solte as pedras e deixe-me explicar um pouco essa minha resposta.
 
-{% image(path="/blog/vale-a-pena-fazer-faculdade/vida-academica-medieval.jpg") %}
+{% image(path="/blog/vale-a-pena-fazer-faculdade/vida-academica-medieval.jpg", lazy=true) %}
 
 Iluminura medieval presente no manuscrito _Rothschild Canticles_
 

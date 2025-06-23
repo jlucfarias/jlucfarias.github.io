@@ -20,7 +20,7 @@
         class="select-none"
         src="{{ path }}"
         {%- if alt -%} alt="{{ alt }}" {%- endif -%}
-        loading="lazy"
+        {%- if lazy -%} loading="lazy" {%- endif -%}
         data-zoomable
       />
     </picture>
